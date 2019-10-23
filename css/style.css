@@ -1,4 +1,7 @@
-@import url(sanitize.css);
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
