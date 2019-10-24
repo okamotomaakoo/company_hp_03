@@ -48,6 +48,7 @@ footer a {
 
 .menu-options {
   width: 100%;
+  font-size: 25px;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -72,14 +73,28 @@ footer a {
   margin: 50px 60px 10px 85px;
 }
 
-.top-image #line_red {
-  position: relative;
+.top-image #line_green {
+  position: fixed;
+  top: 0px;
+  left: -53px;
+  width: 283px;
+  height: 487px;
 }
 
 .top-image #line_red {
-  position: absolute;
-  top: 177px;
-  left: -55px;
+  position: fixed;
+  top: 185px;
+  left: -121px;
+  width: 283px;
+  height: 487px;
+}
+
+.top-image #line_yellow {
+  position: fixed;
+  top: 186px;
+  left: 220px;
+  width: 283px;
+  height: 487px;
 }
 
 .culture-plate {
