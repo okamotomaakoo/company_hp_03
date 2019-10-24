@@ -47,14 +47,15 @@ footer a {
 }
 
 .menu-options {
-  width: 50%;
+  width: 100%;
+  font-weight: 600;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .menu-options>.option {
-  margin: 10px 40px;
+  margin: 10px 45px;
   cursor: pointer;
 }
 
@@ -63,11 +64,12 @@ footer a {
 }
 
 .menu-icon {
-  width: 50%;
+  width: 50px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin: 50px 60px 10px 85px;
 }
 
 .top-image #line_red {
