@@ -169,16 +169,28 @@ footer a {
   left: 113px;
 }
 
-.ccreate-text h2 {
+.create-text h2 {
   margin: 10px 0;
 }
 
-.create-image {
+.create-image #milklab-m00 {
   position: absolute;
   top: 300px;
   left: 650px;
-  background-color: blue;
-  width: 150px;
+}
+
+.create-image #milklab-m01 {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 300px;
+  left: 650px;
+}‹
+
+.create-image #milklab-m02 {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 300px;
+  left: 650px;
 }
 
 .member-plate {
