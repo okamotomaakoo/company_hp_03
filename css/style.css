@@ -131,12 +131,26 @@ footer a {
   margin: 10px 0;
 }
 
-.culture-image {
+.culture-image [milklab-m00] {
   position: absolute;
   top: 300px;
   left: 650px;
   background-color: blue;
   width: 150px;
+}
+
+.culture-image [milklab-m01] {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 300px;
+  left: 350px;
+}
+
+.culture-image [milklab-m02] {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 300px;
+  left: 150px;
 }
 
 .create-plate {
@@ -173,24 +187,20 @@ footer a {
   margin: 10px 0;
 }
 
-.culture-image [milklab-m00] {
+.create-image {
   position: absolute;
   top: 300px;
   left: 650px;
+  animation: rotate-anime 3s linear infinite;
 }
 
-.culture-image [milklab-m01] {
-  position: absolute;
-  transform: rotate(-90deg);
-  top: 300px;
-  left: 350px;
-}
-
-.culture-image [milklab-m02] {
-  position: absolute;
-  transform: rotate(90deg);
-  top: 300px;
-  left: 150px;
+@keyframes rotate-anime {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .member-plate {
